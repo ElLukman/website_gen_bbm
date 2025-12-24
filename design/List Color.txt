@@ -1,0 +1,31 @@
+List Color
+
+Radix 
+#A41616
+#3E4691
+#F7F6F2
+#161849
+
+Primary
+2 #161849
+4 #5F6BCA
+6 #6875D9
+8 #94A4FF
+9 #BCC9FF
+10 #D1DAFF 
+12 #F4EDEC
+
+Secondary 
+2. #161849
+4. #5F6BCA
+6. #6875D9
+8. #94A4FF
+9. #BCC9FF
+10. #D1DAFF
+12. #F4EDEC
+
+Judul Halaman (H1): Font Size: 24px, Weight: Bold
+Judul Section (H2): Font Size: 20px, Weight: SemiBold
+Teks Body / Input: Font Size: 16px, Weight: Regular
+Teks Kecil / Label: Font Size: 14px, Weight: Regular
+Teks Tombol: Font Size: 16px, Weight: SemiBold
