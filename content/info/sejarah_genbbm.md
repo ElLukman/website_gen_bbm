@@ -1,0 +1,5 @@
+---
+title: Sejarah
+---
+
+Komunitas Generasi Berani Bangun Mimpi (Gen BBM) adalah sebuah komunitas yang berfokus pada kegiatan sosial kemanusiaan dan pendidikan, terutama di Kota Bandung. Komunitas ini terdiri dari sekumpulan para pemuda dengan beragam latar belakang yang memiliki minat dan kepedulian terhadap isu-isu tersebut. Berdiri sejak tahun desember 2023, saat ini Gen BBM memiliki anggota dan Pengurus aktif dalam strukturalnya, dan kami akan mengadakan open volunteer bagi siapa saja yang ingin mengikuti agenda yang diselenggarakan oleh Gen BBM, para volunteer juga biasa disebut sebagai partisipan, saat ini sudah menyentuh 160 lebih. Komunitas ini menjunjung tinggi nilai-nilai asas kebermanfaatan bagi sesama dan peningkatan kapasitas diri (berupa minat, bakat, potensi maupun keahlian) sebagai upaya (atau dalam rangka) untuk membangun kelompok elit atau dikenal sebagai elite circle yang membawa perubahan positif bagi masyarakat sesuai dengan tujuan utamanya, “menciptakan elite circle dan menjadi agen kebermanfaatan”

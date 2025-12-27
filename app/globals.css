@@ -1,26 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@plugin "@tailwindcss/typography";
+@source "../.flowbite-react/class-list.json";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../node_modules/flowbite-react";
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@custom-variant dark (&:where(.dark, .dark *));
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@theme {
+  /* RADIX */
+  --color-radix-red: #A41616;
+  --color-radix-blue: #3E4691;
+  --color-radix-cream: #F7F6F2;
+  --color-radix-dark: #161849; 
+  --color-other-gray: #9f9f9f;
+
+  /* PRIMARY PALETTE */
+  --color-primary-2: #601F1A;
+  --color-primary-4: #920000;
+  --color-primary-6: #A41616;
+  --color-primary-8: #D5877E;
+  --color-primary-9: #EAB4AD;
+  --color-primary-10: #F5D2CD;
+  --color-primary-12: #F4EDEC;
+
+  /* SECONDARY PALETTE */
+  --color-secondary-2: #161849;
+  --color-secondary-4: #5F6BCA;
+  --color-secondary-6: #6875D9;
+  --color-secondary-8: #94A4FF;
+  --color-secondary-9: #BCC9FF;
+  --color-secondary-10: #D1DAFF;
+  --color-secondary-12: #F4EDEC;
+
+  --font-poppins: "Poppins", sans-serif;
+  --font-tnr: "Times New Roman", Times, serif;
+
+  --animate-dropdown-enter: dropdown-enter 0.2s ease-out forwards;
+
+  @keyframes dropdown-enter {
+    0% {
+      opacity: 0;
+      transform: translateY(-8px) scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-poppins);
+  color: var(--color-radix-dark);
 }
